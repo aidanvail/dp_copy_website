@@ -1,0 +1,58 @@
+/* Enhanced Create CV Page Styles */
+.cv-hero {
+    padding: 8rem 0 4rem;
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    color: var(--white);
+    text-align: center;
+}
+
+.cv-hero h1 {
+    color: var(--white);
+    font-size: var(--font-size-4xl);
+    margin-bottom: 1rem;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.cv-hero p {
+    color: var(--highlight-color);
+    font-size: var(--font-size-xl);
+    max-width: 600px;
+    margin: 0 auto;
+    opacity: 0.95;
+}
+
+.cv-section {
+    padding: 6rem 0;
+    background: var(--white);
+}
+
+.cv-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+/* Process Steps */
+.cv-steps {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+    gap: 2rem;
+}
+
+.step-card {
+    background: var(--white);
+    padding: 2rem;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    flex: 1;
+}
+
+/* CV Builder Container */
+.cv-builder-wrapper {
+    background: var(--white);
+    padding: 3rem;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+} 
